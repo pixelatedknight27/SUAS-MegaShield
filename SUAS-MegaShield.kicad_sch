@@ -2250,7 +2250,7 @@
 				)
 			)
 		)
-		(property "Value" "Arduino_Giga_R1_WiFi_Shield"
+		(property "Value" "Arduino_Mega_Shield"
 			(at 92.71 176.53 0)
 			(effects
 				(font
