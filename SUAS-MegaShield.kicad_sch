@@ -5,7 +5,7 @@
 	(uuid "e7bdfd97-9194-412d-a3f6-b05bc9b41b52")
 	(paper "A4")
 	(lib_symbols
-		(symbol "arduino-library:Arduino_Giga_R1_WiFi_Shield"
+		(symbol "arduino-library:Arduino_Mega2560_R3_Shield"
 			(pin_names
 				(offset 1.016)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "Arduino_Giga_R1_WiFi_Shield"
+			(property "Value" "Arduino_Mega2560_R3_Shield"
 				(at 0 -66.04 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_arduino-library:Arduino_Giga_R1_WiFi_Shield"
+			(property "Footprint" "PCM_arduino-library:Arduino_Mega2560_R3_Shield"
 				(at 0 -73.66 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://docs.arduino.cc/hardware/giga-r1-wifi"
+			(property "Datasheet" "https://docs.arduino.cc/hardware/mega-2560"
 				(at 0 -69.85 0)
 				(effects
 					(font
@@ -46,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Shield for Arduino Giga R1 WiFi"
+			(property "Description" "Shield for Arduino Mega 2560 R3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +64,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Arduino_Giga_R1_WiFi_Shield"
+			(property "ki_fp_filters" "Arduino_Mega2560_R3_Shield"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Arduino_Giga_R1_WiFi_Shield_0_0"
+			(symbol "Arduino_Mega2560_R3_Shield_0_0"
 				(rectangle
 					(start -25.4 -58.42)
 					(end 25.4 58.42)
@@ -119,17 +119,6 @@
 					)
 				)
 				(rectangle
-					(start -19.05 16.51)
-					(end -12.7 16.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start -19.05 26.67)
 					(end -12.7 26.67)
 					(stroke
@@ -163,28 +152,6 @@
 					)
 				)
 				(rectangle
-					(start -17.78 21.59)
-					(end -16.51 21.59)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -17.78 24.13)
-					(end -16.51 24.13)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start -16.51 -25.4)
 					(end -13.97 -25.4)
 					(stroke
@@ -198,28 +165,6 @@
 				(rectangle
 					(start -16.51 -24.13)
 					(end -16.51 -26.67)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -16.51 22.86)
-					(end -13.97 22.86)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -16.51 24.13)
-					(end -16.51 21.59)
 					(stroke
 						(width 0)
 						(type default)
@@ -284,28 +229,6 @@
 					)
 				)
 				(rectangle
-					(start -12.7 -6.35)
-					(end -12.7 -19.05)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -12.7 16.51)
-					(end -12.7 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start -12.7 26.67)
 					(end -12.7 27.94)
 					(stroke
@@ -350,8 +273,8 @@
 					)
 				)
 				(rectangle
-					(start -6.35 45.72)
-					(end -3.81 45.72)
+					(start -6.35 48.26)
+					(end -6.35 45.72)
 					(stroke
 						(width 0)
 						(type default)
@@ -361,7 +284,7 @@
 					)
 				)
 				(rectangle
-					(start -6.35 48.26)
+					(start -2.54 45.72)
 					(end -6.35 45.72)
 					(stroke
 						(width 0)
@@ -373,7 +296,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 -54.61) (xy 20.32 -54.61)
+						(xy -21.59 21.59) (xy -12.7 21.59)
 					)
 					(stroke
 						(width 0)
@@ -385,7 +308,7 @@
 				)
 				(polyline
 					(pts
-						(xy 15.24 26.67) (xy 13.97 27.94)
+						(xy -12.7 -19.05) (xy -12.7 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -397,7 +320,7 @@
 				)
 				(polyline
 					(pts
-						(xy 15.24 39.37) (xy 15.24 36.83)
+						(xy -12.7 6.35) (xy -12.7 21.59)
 					)
 					(stroke
 						(width 0)
@@ -409,7 +332,7 @@
 				)
 				(polyline
 					(pts
-						(xy 21.59 54.61) (xy 8.89 54.61)
+						(xy 12.7 -54.61) (xy 16.51 -54.61)
 					)
 					(stroke
 						(width 0)
@@ -421,7 +344,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 44.45) (xy 11.43 53.34) (xy 21.59 54.61)
+						(xy 12.7 54.61) (xy 16.51 54.61)
 					)
 					(stroke
 						(width 0)
@@ -433,7 +356,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 33.02) (xy 15.24 34.29) (xy 16.51 34.29)
+						(xy 17.78 -34.29) (xy 16.51 -34.29)
 					)
 					(stroke
 						(width 0)
@@ -445,7 +368,31 @@
 				)
 				(polyline
 					(pts
-						(xy 15.24 26.67) (xy 11.43 27.94) (xy 11.43 36.83)
+						(xy 15.24 36.83) (xy 15.24 27.94) (xy 20.32 26.67)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 44.45) (xy 15.24 53.34) (xy 16.51 54.61)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -31.75) (xy 17.78 -33.02) (xy 17.78 -35.56) (xy 20.32 -36.83)
 					)
 					(stroke
 						(width 0)
@@ -456,8 +403,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 45.72)
-					(end 6.35 45.72)
+					(start 6.35 45.72)
+					(end 2.54 45.72)
 					(stroke
 						(width 0)
 						(type default)
@@ -478,15 +425,7 @@
 					)
 				)
 				(text "Analog"
-					(at -12.7 -1.27 900)
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-				(text "CAN"
-					(at -12.7 22.86 900)
+					(at -12.7 1.27 900)
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -495,14 +434,6 @@
 				)
 				(text "I²C"
 					(at -12.7 30.48 900)
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-				(text "I²C"
-					(at 13.97 38.1 900)
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -526,7 +457,15 @@
 					)
 				)
 				(text "PWM"
-					(at 11.43 40.64 900)
+					(at 15.24 -34.29 900)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "PWM"
+					(at 15.24 40.64 900)
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -542,14 +481,6 @@
 					)
 				)
 				(text "SPI"
-					(at 13.97 30.48 900)
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-				(text "SPI1"
 					(at 0 45.72 0)
 					(effects
 						(font
@@ -558,10 +489,10 @@
 					)
 				)
 			)
-			(symbol "Arduino_Giga_R1_WiFi_Shield_1_0"
+			(symbol "Arduino_Mega2560_R3_Shield_1_0"
 				(rectangle
-					(start 8.89 -3.81)
-					(end 8.89 -54.61)
+					(start 12.7 -54.61)
+					(end 12.7 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -571,8 +502,8 @@
 					)
 				)
 				(rectangle
-					(start 8.89 54.61)
-					(end 8.89 3.81)
+					(start 12.7 54.61)
+					(end 12.7 3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -582,7 +513,7 @@
 					)
 				)
 				(text "GPIO"
-					(at 8.89 0 900)
+					(at 12.7 0 900)
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -590,7 +521,7 @@
 					)
 				)
 			)
-			(symbol "Arduino_Giga_R1_WiFi_Shield_1_1"
+			(symbol "Arduino_Mega2560_R3_Shield_1_1"
 				(pin power_out line
 					(at -33.02 -41.91 0)
 					(length 7.62)
@@ -682,7 +613,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 11.43 0)
+					(at -33.02 21.59 0)
 					(length 7.62)
 					(name "A0"
 						(effects
@@ -700,7 +631,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 8.89 0)
+					(at -33.02 19.05 0)
 					(length 7.62)
 					(name "A1"
 						(effects
@@ -717,8 +648,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -33.02 -13.97 0)
+				(pin bidirectional line
+					(at -33.02 -3.81 0)
 					(length 7.62)
 					(name "A10"
 						(effects
@@ -735,8 +666,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -33.02 -16.51 0)
+				(pin bidirectional line
+					(at -33.02 -6.35 0)
 					(length 7.62)
 					(name "A11"
 						(effects
@@ -754,7 +685,79 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 6.35 0)
+					(at -33.02 -8.89 0)
+					(length 7.62)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -11.43 0)
+					(length 7.62)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -13.97 0)
+					(length 7.62)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -16.51 0)
+					(length 7.62)
+					(name "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 16.51 0)
 					(length 7.62)
 					(name "A2"
 						(effects
@@ -772,7 +775,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 3.81 0)
+					(at -33.02 13.97 0)
 					(length 7.62)
 					(name "A3"
 						(effects
@@ -790,7 +793,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 1.27 0)
+					(at -33.02 11.43 0)
 					(length 7.62)
 					(name "A4"
 						(effects
@@ -808,7 +811,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -1.27 0)
+					(at -33.02 8.89 0)
 					(length 7.62)
 					(name "A5"
 						(effects
@@ -826,7 +829,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -3.81 0)
+					(at -33.02 6.35 0)
 					(length 7.62)
 					(name "A6"
 						(effects
@@ -844,7 +847,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -6.35 0)
+					(at -33.02 3.81 0)
 					(length 7.62)
 					(name "A7"
 						(effects
@@ -861,8 +864,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -33.02 -8.89 0)
+				(pin bidirectional line
+					(at -33.02 1.27 0)
 					(length 7.62)
 					(name "A8"
 						(effects
@@ -879,8 +882,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -33.02 -11.43 0)
+				(pin bidirectional line
+					(at -33.02 -1.27 0)
 					(length 7.62)
 					(name "A9"
 						(effects
@@ -908,42 +911,6 @@
 						)
 					)
 					(number "AREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -33.02 24.13 0)
-					(length 7.62)
-					(name "CANRX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "CANR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -33.02 21.59 0)
-					(length 7.62)
-					(name "CANTX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "CANT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -990,7 +957,7 @@
 				(pin bidirectional line
 					(at 33.02 34.29 180)
 					(length 7.62)
-					(name "D10_CS"
+					(name "D10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1008,7 +975,7 @@
 				(pin bidirectional line
 					(at 33.02 31.75 180)
 					(length 7.62)
-					(name "D11_MOSI"
+					(name "D11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1026,7 +993,7 @@
 				(pin bidirectional line
 					(at 33.02 29.21 180)
 					(length 7.62)
-					(name "D12_MISO"
+					(name "D12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1041,10 +1008,10 @@
 						)
 					)
 				)
-				(pin bidirectional clock
+				(pin bidirectional line
 					(at 33.02 26.67 180)
 					(length 7.62)
-					(name "D13_SCK"
+					(name "D13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1170,7 +1137,7 @@
 				(pin bidirectional line
 					(at 33.02 54.61 180)
 					(length 7.62)
-					(name "D2"
+					(name "D2_INT0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1368,7 +1335,7 @@
 				(pin bidirectional line
 					(at 33.02 52.07 180)
 					(length 7.62)
-					(name "D3"
+					(name "D3_INT1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1782,7 +1749,7 @@
 				(pin bidirectional line
 					(at 33.02 -46.99 180)
 					(length 7.62)
-					(name "D50"
+					(name "D50_MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1800,7 +1767,7 @@
 				(pin bidirectional line
 					(at 33.02 -49.53 180)
 					(length 7.62)
-					(name "D51"
+					(name "D51_MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1815,10 +1782,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin bidirectional clock
 					(at 33.02 -52.07 180)
 					(length 7.62)
-					(name "D52"
+					(name "D52_SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1836,7 +1803,7 @@
 				(pin bidirectional line
 					(at 33.02 -54.61 180)
 					(length 7.62)
-					(name "D53"
+					(name "D53_CS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1887,10 +1854,10 @@
 						)
 					)
 				)
-				(pin bidirectional clock
+				(pin bidirectional line
 					(at 33.02 39.37 180)
 					(length 7.62)
-					(name "D8/SCL2"
+					(name "D8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1908,7 +1875,7 @@
 				(pin bidirectional line
 					(at 33.02 36.83 180)
 					(length 7.62)
-					(name "D9/SDA2"
+					(name "D9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1916,42 +1883,6 @@
 						)
 					)
 					(number "D9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -33.02 16.51 0)
-					(length 7.62)
-					(name "DAC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "DAC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -33.02 13.97 0)
-					(length 7.62)
-					(name "DAC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "DAC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2178,14 +2109,14 @@
 				(pin bidirectional clock
 					(at -33.02 26.67 0)
 					(length 7.62)
-					(name "SCL1"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SCL1"
+					(number "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2196,14 +2127,14 @@
 				(pin bidirectional line
 					(at -33.02 29.21 0)
 					(length 7.62)
-					(name "SDA1"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SDA1"
+					(number "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2233,42 +2164,33 @@
 		)
 	)
 	(symbol
-		(lib_id "arduino-library:Arduino_Giga_R1_WiFi_Shield")
-		(at 92.71 113.03 0)
+		(lib_id "arduino-library:Arduino_Mega2560_R3_Shield")
+		(at 128.27 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bbf11db9-f0f7-46ff-87f1-4bb245b3959d")
+		(uuid "14cb970e-dc45-470a-bd33-9e5f73f1b5f4")
 		(property "Reference" "A1"
-			(at 92.71 173.99 0)
+			(at 128.27 170.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "Arduino_Mega_Shield"
-			(at 92.71 176.53 0)
+		(property "Value" "Arduino_Mega2560_R3_Shield"
+			(at 128.27 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "arduino-library:Arduino_Giga_R1_WiFi_Shield"
-			(at 92.71 186.69 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.arduino.cc/hardware/giga-r1-wifi"
-			(at 92.71 182.88 0)
+		(property "Footprint" "arduino-library:Arduino_Mega2560_R3_Shield"
+			(at 128.27 182.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2276,8 +2198,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shield for Arduino Giga R1 WiFi"
-			(at 92.71 113.03 0)
+		(property "Datasheet" "https://docs.arduino.cc/hardware/mega-2560"
+			(at 128.27 179.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shield for Arduino Mega 2560 R3"
+			(at 128.27 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,281 +2216,281 @@
 				(hide yes)
 			)
 		)
-		(pin "D38"
-			(uuid "3d942b0c-47e1-4b85-a0d6-ff72d4cdd917")
-		)
-		(pin "D39"
-			(uuid "baca977c-14c4-4cb2-8926-7b764697d246")
-		)
-		(pin "D4"
-			(uuid "55c9fd84-3607-474b-86ca-03ebb578c12c")
-		)
-		(pin "D40"
-			(uuid "bd75a6f2-af8f-4616-8db7-b3eb0f846031")
-		)
-		(pin "D41"
-			(uuid "13e1e225-af3e-4d93-a205-97df16b130be")
-		)
-		(pin "D25"
-			(uuid "aae0e326-6715-4c95-8b21-b03952269c11")
-		)
-		(pin "D42"
-			(uuid "f6e0ed48-eac6-4e45-b2f4-86daff6b609c")
-		)
-		(pin "D43"
-			(uuid "fbe8c194-ce0f-46fc-9937-efb6b3c3ccc8")
-		)
-		(pin "D44"
-			(uuid "5ebb4c8a-2024-40b5-8367-0743a508f9d1")
-		)
-		(pin "D45"
-			(uuid "a124fbfb-3006-479c-adaf-2371574a8c6d")
-		)
-		(pin "A4"
-			(uuid "2766c715-c407-4b01-86d6-43fe6aba7167")
-		)
-		(pin "D24"
-			(uuid "5ac831dd-5cc8-42cb-940d-4d4eafbcc80b")
-		)
-		(pin "D46"
-			(uuid "05bf27b0-34d5-45f0-812a-92482fbc34f1")
-		)
-		(pin "D47"
-			(uuid "7b3a8301-c275-4689-8957-da9c13d799fa")
-		)
-		(pin "A3"
-			(uuid "d62416e6-b0e0-47a0-b277-8c626be0e93f")
-		)
-		(pin "A1"
-			(uuid "9fec9906-eeb9-48f4-b20b-11e4b524c492")
-		)
-		(pin "A7"
-			(uuid "18c72e63-e568-47bb-8f64-3a3d989c93d8")
-		)
-		(pin "CANR"
-			(uuid "ce5091fd-8db6-4f81-a116-af57c5d593b8")
-		)
-		(pin "D0"
-			(uuid "94e66b12-d2fc-4184-9419-72e82f1fe8ab")
-		)
 		(pin "D12"
-			(uuid "da4c7b16-d612-477b-9e30-48d00c7d9450")
-		)
-		(pin "D13"
-			(uuid "a34c51e9-7de5-43a7-8359-6c4641daed3a")
-		)
-		(pin "D10"
-			(uuid "bd4569b2-92b3-443e-9b9f-0f3629d2fb8c")
-		)
-		(pin "D14"
-			(uuid "d2af4c89-d8b8-4d84-97f3-794530730b4c")
-		)
-		(pin "D27"
-			(uuid "a70b41d2-3dbe-4924-89de-54e652ed52c3")
-		)
-		(pin "D30"
-			(uuid "c0afd9ed-362e-445a-b180-b89e58fc0e4d")
-		)
-		(pin "A6"
-			(uuid "5f12fcba-8768-44d3-b9c9-db8b25cbefca")
-		)
-		(pin "D32"
-			(uuid "7e4bac70-2570-4a5c-87bd-0e79d4222de6")
-		)
-		(pin "A8"
-			(uuid "e1b6cd81-9a1d-4fb5-a929-b2eace5f78e6")
-		)
-		(pin "AREF"
-			(uuid "0cc0d881-b687-4210-9081-708537f3772c")
-		)
-		(pin "A5"
-			(uuid "2c536db7-4551-447b-acff-f473c86e4eff")
-		)
-		(pin "D15"
-			(uuid "3567533d-fbf3-47e0-98da-47aef9a160a6")
-		)
-		(pin "D17"
-			(uuid "988cf385-7a7b-4386-b56c-243d6ac2e56f")
-		)
-		(pin "D11"
-			(uuid "426c73bd-351a-4b00-b00c-c5af28ca6aa8")
-		)
-		(pin "5V1"
-			(uuid "ce19c623-a679-4a72-a0d3-6e2f501c5e6f")
-		)
-		(pin "D2"
-			(uuid "84715c5f-e301-468b-a4e9-a3a328544e83")
-		)
-		(pin "D29"
-			(uuid "85c49ac8-ae51-467c-b7f3-9bba43a3ab99")
-		)
-		(pin "5V3"
-			(uuid "34f645ca-9254-4159-a6d7-5b5f6b203d9d")
-		)
-		(pin "A0"
-			(uuid "c737e31c-16af-4a96-931e-00082e7155b6")
-		)
-		(pin "D31"
-			(uuid "2249f355-8f73-42b8-a6c8-675cabf17486")
-		)
-		(pin "D33"
-			(uuid "07d94046-22ae-4a9d-95d2-e6500e768edd")
-		)
-		(pin "3V3"
-			(uuid "83c2586c-1071-4c98-9850-e4381a3b2c6a")
-		)
-		(pin "D1"
-			(uuid "1672a260-d4d4-4a38-9e30-82e55526b462")
+			(uuid "ebf343bc-8a6f-428e-bde3-d0e36e5f0deb")
 		)
 		(pin "D16"
-			(uuid "0938f424-5e43-485b-af11-73ab140f7aad")
-		)
-		(pin "5V2"
-			(uuid "2c8b167b-1537-427e-abba-ecebda567fd5")
-		)
-		(pin "5V4"
-			(uuid "8b86775e-7af9-400f-b6ed-115f5ab3713d")
-		)
-		(pin "A10"
-			(uuid "8c51b608-2829-4d02-a6ed-c8028e9242f4")
-		)
-		(pin "D20"
-			(uuid "e30f5e8f-22c7-44b2-b6d4-b2170073cf8e")
-		)
-		(pin "A2"
-			(uuid "48244b45-91dd-466f-b7f7-a90fd5385318")
-		)
-		(pin "D34"
-			(uuid "0e1f4391-f2c3-4dab-9fac-5b1da6b2adf1")
-		)
-		(pin "D23"
-			(uuid "821cefe8-8604-45a3-8193-4634c212a0aa")
-		)
-		(pin "D35"
-			(uuid "ccd6b3d6-9155-4adf-9a37-3182ece07724")
-		)
-		(pin "CANT"
-			(uuid "f54f6060-6b2f-4cef-902c-856a886f2ba5")
-		)
-		(pin "D36"
-			(uuid "22bb5f0a-290a-4ab9-88c5-b7321418cbfd")
-		)
-		(pin "D21"
-			(uuid "35f5b721-a7ea-4cb5-abea-5a232bc1eefb")
-		)
-		(pin "D3"
-			(uuid "69fd6f18-051c-4c09-a873-749394773812")
-		)
-		(pin "D37"
-			(uuid "57e3f7a0-eee8-4a9c-8ad3-44b3f3908ef2")
+			(uuid "106f66e5-1fff-4193-a207-ad9d9b7c965f")
 		)
 		(pin "D18"
-			(uuid "01e2e7d7-59cf-432d-b0e2-f60b894748fa")
+			(uuid "2e1320d7-f248-452f-88fe-21efa393b057")
 		)
-		(pin "A11"
-			(uuid "44961d8c-1c49-4437-8410-c4f658a40a0b")
+		(pin "A15"
+			(uuid "06a17006-7d36-4c2f-8083-0355bb8f6ec4")
 		)
-		(pin "A9"
-			(uuid "a7ab17ab-f7f4-4e79-91c1-fec184218a5c")
-		)
-		(pin "D19"
-			(uuid "5542e80a-d66d-4ebd-9fd9-2a462cf9370a")
-		)
-		(pin "D28"
-			(uuid "1e846c43-a6f7-4d83-b830-8163576b22ad")
-		)
-		(pin "D22"
-			(uuid "66f64fb9-7cdf-41c8-917d-225a9badaaca")
+		(pin "D23"
+			(uuid "ab93d3c0-63f8-49ae-a243-a3ffb593cb50")
 		)
 		(pin "D26"
-			(uuid "11042a67-e05b-4962-b7bb-f7c61015298a")
+			(uuid "52b47064-2808-4859-837b-411ea7de857d")
+		)
+		(pin "D29"
+			(uuid "53b6d373-82de-4c2a-afa9-30028aefb7b4")
+		)
+		(pin "D41"
+			(uuid "8b0180fc-24de-43e0-a163-8da334665d07")
+		)
+		(pin "D22"
+			(uuid "db72c1a0-a64b-4f1f-80a4-be07171e93dc")
+		)
+		(pin "A1"
+			(uuid "710e7b10-a176-48da-bde5-f3dbe21dc98b")
+		)
+		(pin "D24"
+			(uuid "a5f74f61-6321-4a18-9ad2-b7b5e5331e49")
+		)
+		(pin "D4"
+			(uuid "47454996-fdf5-4cf0-9937-a922f2c9c95c")
+		)
+		(pin "D35"
+			(uuid "a802236d-90d0-4fe6-a8fa-b3d586397aab")
+		)
+		(pin "D14"
+			(uuid "7afefbd7-2520-4021-85de-2a25ba750104")
+		)
+		(pin "A5"
+			(uuid "14635856-29db-4a2f-95bf-4e11ab6c762a")
+		)
+		(pin "D19"
+			(uuid "c6587d50-89bc-43e7-be80-1f4e0a323538")
+		)
+		(pin "D43"
+			(uuid "0e31b5e4-3928-475d-84e4-1cef7c726dd0")
+		)
+		(pin "D42"
+			(uuid "6c629673-887f-4322-ae0a-566afb9da918")
+		)
+		(pin "A8"
+			(uuid "4f4b53f3-ab60-4337-aacd-33e3f81c5fbf")
+		)
+		(pin "D44"
+			(uuid "ea2ca8c4-2b0c-46bf-b99c-246bf9e28817")
+		)
+		(pin "3V3"
+			(uuid "a86318ec-61a3-4ed1-9a71-df17bd97896a")
+		)
+		(pin "D1"
+			(uuid "13850352-c4c5-4dad-8b96-f11c78a5a913")
+		)
+		(pin "D13"
+			(uuid "4265cdb1-01d2-4718-b27f-0a66c9487713")
+		)
+		(pin "A4"
+			(uuid "721d38d9-23f7-478c-862d-2ef4314c8a78")
+		)
+		(pin "A6"
+			(uuid "65300c39-6fdc-4275-b031-6090ba32471d")
+		)
+		(pin "D21"
+			(uuid "715694be-5f89-444c-9785-bd77311aa62d")
+		)
+		(pin "D15"
+			(uuid "90835a2a-e516-4ac4-9367-fed5e308959b")
+		)
+		(pin "D20"
+			(uuid "296745a6-8a00-4a0b-8da4-bccc0a4b3d22")
+		)
+		(pin "D3"
+			(uuid "c79450d8-35d2-4df5-b437-4337a07b5869")
+		)
+		(pin "D31"
+			(uuid "411f7cfe-0021-412d-8b45-a90c4293823e")
+		)
+		(pin "D34"
+			(uuid "68f542b8-2e1e-4198-9f4f-6e81c2ba48c1")
+		)
+		(pin "A11"
+			(uuid "73422482-169d-4d50-af8b-6c92dee09ec2")
+		)
+		(pin "D32"
+			(uuid "8155b4a6-3161-44bb-b6cc-6cc786eb1faa")
+		)
+		(pin "D33"
+			(uuid "c694b74e-0358-4c0f-b3b3-bc7bb0c5f5b8")
+		)
+		(pin "D39"
+			(uuid "110f06e8-f3c8-4a17-88c6-5bd0b54ba4ec")
+		)
+		(pin "AREF"
+			(uuid "01ebde60-e93d-42dd-a5c3-395d6ebfea14")
+		)
+		(pin "A0"
+			(uuid "d4529159-5ee6-4170-b570-b65a18d33914")
+		)
+		(pin "D2"
+			(uuid "908a7c70-80ab-49a1-a9c1-7c44df96058f")
+		)
+		(pin "D28"
+			(uuid "07e1bb45-ac80-47bc-b040-d9b4fc60eade")
+		)
+		(pin "5V2"
+			(uuid "0b20d320-3ce7-4478-80fb-118c3cf9c85f")
+		)
+		(pin "A10"
+			(uuid "0da0f13d-e791-40fc-ae0b-0a2f1b63201d")
+		)
+		(pin "A2"
+			(uuid "1a8553fd-3ee3-4c93-a719-0e8b79aded27")
+		)
+		(pin "D25"
+			(uuid "cc8bab43-56a8-4477-9609-3b48a3cabab5")
+		)
+		(pin "A9"
+			(uuid "654c8b9b-c0a5-4667-b73d-3aeb39982920")
+		)
+		(pin "A14"
+			(uuid "6fd1d90f-15df-4e11-9842-838f5687c670")
+		)
+		(pin "D0"
+			(uuid "d78fddbd-fd42-42b4-b2e9-e57521fceab0")
+		)
+		(pin "D10"
+			(uuid "d4863d9d-00dc-47d7-a0f1-14a6430c2457")
+		)
+		(pin "D27"
+			(uuid "dc0a85f2-0b99-4b5b-9ed7-2b2565bc6c40")
+		)
+		(pin "D30"
+			(uuid "656e2b6a-4375-4206-bc6c-8c2a764f5c82")
+		)
+		(pin "D17"
+			(uuid "5ffafa0f-d475-4b20-94b4-6475e27a1e37")
+		)
+		(pin "D36"
+			(uuid "9b8c6605-480f-4b34-bff5-b235ff1ca0b8")
+		)
+		(pin "D37"
+			(uuid "0bc16f93-c658-4846-88ce-9db02f53d2b9")
+		)
+		(pin "D38"
+			(uuid "24c4b5d0-a806-4ec6-a5d5-7aaa4e767137")
+		)
+		(pin "5V4"
+			(uuid "a1b3d8e1-0681-429e-ac1c-9e1860a6fc85")
+		)
+		(pin "A12"
+			(uuid "5874d154-6dc2-4246-a39d-4dd701509332")
+		)
+		(pin "A7"
+			(uuid "aa9bee90-9304-4f70-97d7-bf8689b81c64")
+		)
+		(pin "D11"
+			(uuid "f410eb36-fd60-4724-8116-f56a02a7dd2f")
+		)
+		(pin "5V3"
+			(uuid "a5ade38c-a416-4900-8a05-2759bb170039")
+		)
+		(pin "D40"
+			(uuid "37b1a918-4649-46b8-95ee-94ed0a0e9ff3")
+		)
+		(pin "5V1"
+			(uuid "7a245264-fad7-4cc3-bd43-e4e11234a936")
+		)
+		(pin "A13"
+			(uuid "1370e94f-e38a-4053-8f22-0641797e207e")
+		)
+		(pin "A3"
+			(uuid "1d5bded5-a2c0-4ee1-8c0e-08b4a2f50138")
 		)
 		(pin "D50"
-			(uuid "5b47a0b0-4cdf-43cf-a7e1-c54a5ef4a909")
-		)
-		(pin "D52"
-			(uuid "eb18a871-e423-4367-bd9a-d5e913e1ceeb")
-		)
-		(pin "D51"
-			(uuid "ce983447-b41b-48c3-b600-67bf170ece67")
-		)
-		(pin "DAC0"
-			(uuid "0cd3f232-711e-4238-bc8d-8b1f62cf4cb6")
-		)
-		(pin "GND3"
-			(uuid "3a18e901-a905-42f4-89d2-4fa1eee1baa4")
-		)
-		(pin "GND1"
-			(uuid "47e74201-eb3e-4011-9663-bfe4a4fd5052")
-		)
-		(pin "SCL1"
-			(uuid "ba581ecb-fe3b-4acc-9a5b-abd902a4e855")
-		)
-		(pin "D53"
-			(uuid "0fb44238-a267-4cda-b3f0-7bf16489839f")
-		)
-		(pin "MISO"
-			(uuid "c8677543-12cd-42d0-9ff2-fec8d0c35483")
-		)
-		(pin "D5"
-			(uuid "45e36c70-c726-4621-aca7-ff655e7c9130")
-		)
-		(pin "RST2"
-			(uuid "7b70e6f6-1d29-4cdc-a94d-0a1a53449942")
-		)
-		(pin "GND6"
-			(uuid "dc1093bc-ef65-47a4-8c7e-c67849cfebb3")
-		)
-		(pin "IORF"
-			(uuid "40e684df-751a-4d13-a2a1-bfd819db2d55")
-		)
-		(pin "D7"
-			(uuid "89a2c714-a3c6-4c79-bdfe-9c5a9b608986")
-		)
-		(pin "GND5"
-			(uuid "f2f91b68-3c44-4e4d-a10d-4f1e0c0bbca9")
+			(uuid "d2f25c86-26df-44c4-97cb-7db72aae048f")
 		)
 		(pin "SCK"
-			(uuid "80fd6bc6-91f2-42cd-968b-72c9be6974ba")
+			(uuid "409f6db8-cc34-4a95-a497-f2d936d516c5")
 		)
-		(pin "D48"
-			(uuid "297d9430-f13c-44c6-9de1-de6fc7d6b596")
+		(pin "D47"
+			(uuid "72d247a0-2234-4dee-97dc-d81f486bb3a5")
 		)
-		(pin "VIN"
-			(uuid "7371f385-f48a-4a96-88b9-c98ec654b558")
+		(pin "GND3"
+			(uuid "a834893c-144d-478b-9836-f2bc208fa9d2")
 		)
-		(pin "DAC1"
-			(uuid "54e846af-073e-4814-8204-b0d4b734a0c8")
+		(pin "GND6"
+			(uuid "9b414422-2c13-45a0-af58-d2519ffb4ab2")
 		)
 		(pin "D49"
-			(uuid "64709850-e4ea-48ec-847b-49fc1b2482b2")
+			(uuid "6f808234-62f2-432f-aac5-0ccb5d684727")
 		)
-		(pin "D8"
-			(uuid "41bcc0be-be08-4a94-b1b1-57084ecfe3a7")
-		)
-		(pin "D9"
-			(uuid "c39962a6-bdd1-4c14-9316-85c7b0fa33e6")
-		)
-		(pin "GND2"
-			(uuid "2522e7ee-c0c8-4036-927b-7aa330dcdfab")
-		)
-		(pin "D6"
-			(uuid "843e4d96-5216-4d74-8792-c3017195ccf0")
-		)
-		(pin "MOSI"
-			(uuid "bfe8538c-9b6b-4885-b6b6-a0377c883d32")
+		(pin "D46"
+			(uuid "7622f6ee-2136-4dfd-bf40-544887fe2e2a")
 		)
 		(pin "GND4"
-			(uuid "232760e6-092f-4d70-934b-76ac1681aa0c")
+			(uuid "bc8924a9-9abd-4088-a2fe-67c81a411c5d")
 		)
-		(pin "SDA1"
-			(uuid "99cc4395-2299-4f98-8706-05fc3a2dc119")
+		(pin "D48"
+			(uuid "d21ad8b0-77d1-4d6a-8ef2-531c369b29b3")
+		)
+		(pin "MISO"
+			(uuid "4fd680d4-180e-4fd7-9cba-a34ae746d7d7")
 		)
 		(pin "RST1"
-			(uuid "f89e2423-1df2-4d80-ae96-8c06dc7f232b")
+			(uuid "fe26f2ff-03ea-4942-a762-3a0b3d28618a")
+		)
+		(pin "GND5"
+			(uuid "1577434b-f15b-4771-851c-63a555d182e6")
+		)
+		(pin "SCL"
+			(uuid "2b204c57-6ff7-4919-a29b-1c68c1d8c245")
+		)
+		(pin "VIN"
+			(uuid "b5cc4875-9488-43e9-8329-608f6cdc7391")
+		)
+		(pin "SDA"
+			(uuid "31d9b43a-c1e4-4003-910d-e2825e42df9f")
+		)
+		(pin "D7"
+			(uuid "8dc66d41-5274-462b-9b86-aa49ba733407")
+		)
+		(pin "D52"
+			(uuid "5dc41308-19bb-43a5-a47a-76f04cd0c5c5")
+		)
+		(pin "RST2"
+			(uuid "7605898b-8749-45ab-9db6-f182fa8a5961")
+		)
+		(pin "IORF"
+			(uuid "0f4a824d-50e9-402a-af78-89cc31253a4d")
+		)
+		(pin "D6"
+			(uuid "7b7b9f11-fb15-4398-9517-d25648c655cf")
+		)
+		(pin "D45"
+			(uuid "12da0b5a-6443-44f7-8887-6b0d6ae0bb0b")
+		)
+		(pin "D53"
+			(uuid "b498c30f-2a80-452b-b374-247c16af484a")
+		)
+		(pin "GND2"
+			(uuid "72803207-0b14-40c2-82f4-9cb37ffe8856")
+		)
+		(pin "D8"
+			(uuid "7e3810b3-84b2-4241-91f4-df90920dfbdf")
+		)
+		(pin "D51"
+			(uuid "6768a348-cec8-4466-b793-ac44a8a42fd6")
+		)
+		(pin "D5"
+			(uuid "93d62f2a-c008-4383-a225-f5b177f94414")
+		)
+		(pin "D9"
+			(uuid "e8aeb7b4-0049-4289-8479-136853b4c3c5")
+		)
+		(pin "GND1"
+			(uuid "a598bb84-eb75-4b0c-8a7f-743a65b16cd9")
+		)
+		(pin "MOSI"
+			(uuid "56441999-a67b-49fe-9c0a-82869ffb89b3")
 		)
 		(instances
-			(project ""
+			(project "SUAS-MegaShield"
 				(path "/e7bdfd97-9194-412d-a3f6-b05bc9b41b52"
 					(reference "A1")
 					(unit 1)
